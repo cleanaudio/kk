@@ -1,0 +1,1 @@
+Caleb was too lazy to write two paragraphs so I'll just... yeah. This site was designed and is being operated by Will. It's a GitHub Pages site because I aint paying for this shit, don't mind the weird clean audio link.
