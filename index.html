@@ -88,7 +88,7 @@
             display: block;
             margin-top: 10px;
             padding: 10px 20px;
-            background-color: #ff6b6b;
+            background-color: #5D3A7A;
             color: white;
             border: none;
             border-radius: 5px;
@@ -99,14 +99,18 @@
         body {
             font-family: 'Lato', sans-serif;
             text-align: center;
-            background-color: #f6f6f6;
+            background-color: #1a1a1a;
             margin: 0;
             padding: 0;
             animation: fadeIn 2s ease-in-out;
+            background-image: url('bg2.jpg'); /* damn good idea */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
         }
 
         header {
-            background-color: #ff6b6b;
+            background-color: #5D3A7A;
             padding: 20px;
         }
 
@@ -148,13 +152,13 @@
         }
 
         footer {
-            background-color: #ff6b6b;
+            background-color: #5D3A7A;
             padding: 10px;
             color: white;
         }
 
         .countdown-box {
-            background-color: #ff6b6b;
+            background-color: #5D3A7A;
             color: white;
             padding: 20px;
             border-radius: 10px;
@@ -184,7 +188,7 @@
         .love-box h2 {
             font-size: 20px;
             margin-bottom: 10px;
-            background-color: #ff6b6b;
+            background-color: #5D3A7A;
             color: white;
             padding: 10px;
             border-top-left-radius: 10px;
@@ -197,7 +201,7 @@
         }
 
         .love-letter-button {
-            background-color: #ff6b6b;
+            background-color: #5D3A7A;
             color: white;
             border: none;
             border-radius: 5px;
@@ -248,7 +252,7 @@
 
 <link rel="icon" href="heart.png" type="image/png">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Add this line -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 <body>
     <button id="darkModeToggle" style="position: fixed; bottom: 10px; right: 10px; background: none; border: none; font-size: 24px; background-color: rgba(220, 220, 220, 0.7); color: #000000; cursor: pointer;">
@@ -262,17 +266,18 @@
 
     <div id="main-content">
         <section style="text-align: left;">
-            <h2>KayKay,</h2>
-            <p>Caleb was too lazy to write two paragraphs so I'll just... yeah. This site was designed and is being operated by Will. It's a GitHub Pages site because I aint paying for this shit, don't mind the weird clean audio link.</p>
+            <br><br><br><br><br>
+            <h2>Dear My Beautiful Kyleigh,</h2>
+            <p>I have never felt this way before, but when I met you, everything changed. You are the sunshine that brightens up my day and the stars that light up the night sky. Your smile is infectious and your laughter is contagious. You have a way of making me feel like the luckiest person in the world. Every moment with you is precious and I cherish every second we spend together. I love you more than words can express.</p>
         </section>
 
         <!-- Love Letters -->
         <section id="love-letter">
             <h2>First</h2>
-            <h4>10/10/2023</h4>
+            <h4>10/2/2023</h4>
             <div id="love-letter-content">
-                <p>Dear My Beautiful Kyleigh,</p>
-                <p>I have never felt this way before, but when I met you, everything changed. You are the sunshine that brightens up my day and the stars that light up the night sky. Your smile is infectious and your laughter is contagious. You have a way of making me feel like the luckiest person in the world. Every moment with you is precious and I cherish every second we spend together. I love you more than words can express.</p>
+                <p>Dear Kyleigh,</p>
+                <p>Your kind heart, and sweet, caring personality makes me so happy. I really appreciate the way you challenge me to be my best self and support me through thick and thin. I cherish every moment I spend with you, from cuddling on the couch to swimming in a pool. For you, anything. Being in a relationship with the most beautiful girl is like having a partner in crime, a best friend, and a soulmate all rolled into one. You are Wifey material.</p>
                 <p>Love,</p>
                 <p>Caleb</p>
             </div>
@@ -329,7 +334,8 @@
     </div>
 
     <footer>
-        <p>Designed by Will, written with <span id="specialWord">love</span>, by Caleb</p>
+        <p>Written with <span id="specialWord">love</span>, by Caleb</p>
+        <p>Contact the developer (Will) for updates.</p>
     </footer>
 
     <script>
@@ -397,11 +403,6 @@
 </script>
 
     <script>
-
-        document.getElementById("specialWord").addEventListener("click", function() {
-            alert("I love you more, kid <3");
-        });
-
         const specialDate = new Date("November 11, 2023 00:00:00").getTime();
 
         function updateCountdown() {
